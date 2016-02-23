@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Vormid</title>
+        <link rel="stylesheet" type="text/css" href="style_forms.css">
+    </head>
+    <body>
+        <h2>Kodune ülesanne - <a href="http://enos.itcollege.ee/~ttanav/VRI/Kodused/02/ylesanne.html">2. nädal</a> - vormid 1</h2>
+        
+		<h3>Veebirakenduste koolitusele registreerumine</h3>
+		<form action="Vormid_1.html" method="get" id="form1">
+				<label for="fn">Eesnimi</label>
+				<input type="text" name="fname" id="fn" placeholder="Eesnimi" rquired/><br />
+				<label for="fn">Perekonnanimi</label>
+                <input type="text" name="lname" id="ln" placeholder="Perekonnanimi" /><br />     
+            	<label for="dob">Sünnikuupäev</label>
+				<input type="date" name="dateofbirth" id="dob"><br />
+				<label for="fn">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" /><br />  
+				<label for="tel">Telefoninumber</label>
+                <input type="tel" name="tel" id="tel" placeholder="Telefoninumber" /><br />  
+           
+		   		<fieldset>
+					<legend>Sugu</legend>
+					<label for="m">Mees</label>
+					<input type="radio" name="sex" id="m"><br />
+            		<label for="fm">Naine</label>
+					<input type="radio" name="sex" id="m">
+				</fieldset>
+				
+				<fieldset>
+					<legend>Huvipakkuvad teemad</legend>
+					<label for="html">HTML</label>
+					<input type="checkbox" name="HTML" id="html"><br />
+            		<label for="css">CSS</label>
+					<input type="checkbox" name="CSS" id="css"><br />
+					<label for="jscript">Javascript</label>
+					<input type="checkbox" name="Javascript" id="jscript"><br />
+					<label for="php">PHP</label>
+					<input type="checkbox" name="PHP" id="php">
+				</fieldset>
+				
+            	<p>
+                	<input type="submit" value="Saada" />
+            	</p>
+        </form>
+        <br />
+		<p>
+            <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+        </p>
+    </body>
+</html>
