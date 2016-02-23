@@ -11,24 +11,25 @@
 		<h3>Veebirakenduste koolitusele registreerumine</h3>
 		<form action="Vormid_1.html" method="get" id="form1">
 				<label for="fn">Eesnimi</label>
-				<input type="text" name="fname" id="fn" placeholder="Eesnimi" rquired/><br />
+				<input type="text" name="fname" id="fn" placeholder="Eesnimi"/><br />
 				<label for="fn">Perekonnanimi</label>
                 <input type="text" name="lname" id="ln" placeholder="Perekonnanimi" /><br />     
-            	<label for="dob">Sünnikuupäev</label>
+            	<!--Firefox ei toeta date tüüpi, Chromes toimib-->
+				<label for="dob">Sünnikuupäev</label>
 				<input type="date" name="dateofbirth" id="dob"><br />
 				<label for="fn">E-mail</label>
                 <input type="email" name="email" id="email" placeholder="E-mail" /><br />  
 				<label for="tel">Telefoninumber</label>
-                <input type="tel" name="tel" id="tel" placeholder="Telefoninumber" /><br />  
-           
+                <input type="tel" name="tel" id="tel" placeholder="Telefoninumber" /><br />
+
 		   		<fieldset>
 					<legend>Sugu</legend>
-					<label for="m">Mees</label>
-					<input type="radio" name="sex" id="m"><br />
-            		<label for="fm">Naine</label>
-					<input type="radio" name="sex" id="m">
+					<label for="male">Mees</label>
+					<input type="radio" name="sex" id="male"><br />
+            		<label for="female">Naine</label>
+					<input type="radio" name="sex" id="female">
 				</fieldset>
-				
+
 				<fieldset>
 					<legend>Huvipakkuvad teemad</legend>
 					<label for="html">HTML</label>
@@ -40,7 +41,7 @@
 					<label for="php">PHP</label>
 					<input type="checkbox" name="PHP" id="php">
 				</fieldset>
-				
+
             	<p>
                 	<input type="submit" value="Saada" />
             	</p>

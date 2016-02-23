@@ -1,18 +1,15 @@
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: left;
-  padding-left:10px;
-  padding-right: 10px;
-  height: 10px;
+    border: 1px solid #999;
+    text-align: left;
+    padding: 0.5rem 10px;
+    height: 10px;
 }
 
 th {
-	text-align: center;
-	background: lightblue;
-	
+    text-align: center;
+    background: lightblue;
 }
