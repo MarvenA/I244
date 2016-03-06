@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(84, 240, 255, 0.4);
+    color: darkblue;
+    font-family: monospace;
+    font-size: 15px;
+}
+h1{
+    background-color: yellow;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+h1:hover{
+    color: yellow;
+    background-color: blue;
+}
+
+.raadik:hover{
+    height: 423px;
+    width: 752px;
+}
+
+.sisu, h3{
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+h3{
+    width: 125px;
+    text-align: center;
+}
+
+.tabel li:hover{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 350px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
