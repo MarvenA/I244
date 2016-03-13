@@ -1,0 +1,94 @@
+body {
+    background-color: aliceblue;
+    color: white;
+    font-family: Calibri;
+}
+
+.leht{
+    background: aliceblue;
+    color:darkcyan;
+}
+
+h2{
+    background-color: darkcyan;
+    color:white;
+    padding-left: 10px;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+}
+
+.menu li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+.menu li:nth-child(5){
+    border-right:none;
+}
+
+.menu li a:hover{
+    font-weight: bold;
+}
+/*.active ei toimi*/
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkcyan;
+}
+
+.menu{
+    min-width: 600px;
+    max-width: 1000px;
+    margin:auto;
+}
+.sisu{
+    position: relative;
+    min-width: 600px;
+    max-width: 1000px;
+    height: 100%;
+    margin:auto;
+    color:darkcyan;
+    background-color: white;
+    text-align: justify;
+    overflow-y:
+}
+/**
+#sisu_list {
+    position: absolute;
+    left: 10px;
+    bottom:60px;
+}
+#welcome{
+    position:absolute;
+    bottom:0px;
+    left:70px;
+}
+**/
+#sisu_tekst{
+    position: absolute;
+    left: 310px;
+    right:10px;
+    bottom:0px;
+}
+
+ol li{
+    font-weight: bold;
+}
+
+.jalus{
+    min-width: 600px;
+    max-width: 1000px;
+    padding-top:10px;
+    margin:auto;
+}
+
+.jalus a{
+    text-decoration: none;
+}
