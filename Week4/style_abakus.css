@@ -1,0 +1,24 @@
+.bead {
+    height: 50px;
+    width: 50px;
+    background-color: #54f0ff;
+    border-radius: 50%;
+    box-shadow: 5px -15px 20px -5px #4A3E56 inset;
+    float:left;
+    margin-top: -25px;
+}
+
+.bead_right{
+    float: right;
+}
+
+.row{
+    clear: both;
+    border: solid 3px #b3b3b3;
+    margin-top: 50px;
+}
+
+#frame{
+    border: 10px outset #b45216;
+    padding-bottom: 50px;
+}
