@@ -1,0 +1,73 @@
+body {
+    background-color: #0A24A9;
+}
+
+#valimine{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.ring {
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px black;
+    cursor: crosshair;
+}
+
+.ring:nth-child(1){
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    left: 0%;
+    top: 0%;
+}
+
+.ring:nth-child(2){
+    height: 80%;
+    width: 80%;
+    background-color: red;
+    left: 10%;
+    top: 10%;
+}
+
+.ring:nth-child(3){
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    left: 20%;
+    top: 20%;
+}
+
+.ring:nth-child(4){
+     height: 40%;
+     width: 40%;
+     background-color: red;
+     left: 30%;
+     top: 30%;
+ }
+
+.ring:nth-child(5){
+    height: 20%;
+    width: 20%;
+    background-color: white;
+    left: 40%;
+    top: 40%;
+}
+
+.ring:nth-child(6){
+    height: 6%;
+    width: 6%;
+    background-color: red;
+    left: 47%;
+    top: 47%;
+}
+
+.duck{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
