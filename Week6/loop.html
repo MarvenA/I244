@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Kodune Ülesanne</title>
+    <style type="text/css">
+        .active {
+            background: #91ffa3;
+            padding: 10px;
+            color: #ff4236;
+        }
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li:first').addClass('active');
+
+            $('#next').bind("click", function () {
+                var active = $('.active');
+                var activated;
+                active.is(":last-child") ? activated = $('li').first() : activated = $(active).next();
+                $('li').removeClass('active');
+                $(activated).addClass('active');
+            });
+            $('#prev').bind("click", function () {
+                var active = $('.active');
+                var activated;
+                active.is(":first-child") ? activated = $('li').last() : activated = $(active).prev();
+                $('li').removeClass('active');
+                $(activated).addClass('active');
+            });
+        })
+    </script>
+</head>
+<body>
+    <button id="prev">tagasi</button>
+    <button id="next">edasi</button>
+<ul>
+    <li>esimene</li>
+    <li>teine</li>
+    <li>kolmas</li>
+    <li>neljas</li>
+</ul>
+
+</body>
+</html>
